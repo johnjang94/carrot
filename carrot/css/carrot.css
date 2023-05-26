@@ -1,0 +1,168 @@
+/* ======== ENTIRE DOCUMENT SETTING ========== */
+body {
+  background-image: url("../image/background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-div {
+  text-align: center;
+
+  justify-content: center;
+  display: flex;
+}
+
+.play-button {
+  background: none;
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.play-image {
+  width: 100px;
+  height: 50px;
+
+  border: 2px solid black;
+  border-radius: 15px;
+
+  background-color: lightskyblue;
+}
+
+/* ======== SOUND SETTING NOTICE ========== */
+.notice {
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  opacity: 1;
+
+  width: fit-content;
+
+  padding: 5px;
+}
+
+/* ======== TIMER SETTING ========== */
+.timer-div {
+  border: 1px dotted black;
+  border-radius: 25px;
+
+  color: white;
+  text-transform: uppercase;
+
+  width: fit-content;
+
+  padding: 0;
+
+  margin-top: 10px;
+  /* margin-left: 650px; */
+}
+
+.timer-div p {
+  font-size: 25px;
+
+  padding: 10px;
+  margin: 0 5px 0 5px;
+}
+.timer-div h5 {
+  font-size: 15px;
+
+  background-color: black;
+  border-radius: 0 0 20px 20px;
+
+  padding: 10px;
+  margin: 0;
+}
+
+/* ======== TIMER SETTING FINISHED ========== */
+.carrot-counter {
+  font-size: 50px;
+
+  border: 2px solid black;
+  border-radius: 40px;
+  background-color: white;
+
+  width: 75px;
+  height: 65px;
+
+  padding: 8px 0 0 0;
+  margin-top: 50px;
+}
+
+/* ======== GAME MESSAGE SETTING ========== */
+.status {
+  border: 0.5px solid black;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.791);
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  width: 350px;
+  height: auto;
+
+  margin-top: 30px;
+}
+
+#game-message {
+  font-size: 45px;
+
+  margin: 25px 0 0 0;
+}
+
+#game-message2 {
+  display: flex;
+
+  font-size: 20px;
+
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.continue:hover {
+  color: peru;
+  cursor: pointer;
+}
+
+.finish:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.replay-image-button {
+  background: none;
+  background-color: none;
+  border: none;
+
+  margin: 10px 0 30px 0;
+}
+
+.replay-image {
+  background: none;
+  border: none;
+  background-color: rgba(211, 211, 211, 0.604);
+
+  width: 35px;
+  height: 20px;
+
+  border: 2px solid black;
+  border-radius: 25px;
+
+  cursor: pointer;
+}
+
+.replay-image:hover {
+  background-color: rgba(165, 42, 42, 0.277);
+}
+
+/* ======== GAME MESSAGE SETTING FINISHED ========== */
+
+/* ======== CARROTS HERE ========== */
+.food {
+  width: 50px;
+  height: 40px;
+
+  z-index: -1000;
+  cursor: pointer;
+}
